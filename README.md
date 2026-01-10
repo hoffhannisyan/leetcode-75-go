@@ -37,6 +37,8 @@ Go solutions for LeetCode 75 study plan with time and space complexity analysis.
 **Stack**
 
 - [2390. Removing Stars From a String](solutions/stack/removing_stars_from_a_string.go)
+- [735. Asteroid Collision](solutions/stack/asteroid_collision.go)
+- [394. Decode String](solutions/stack/decode_string.go)
 
 **Queue**
 
@@ -52,6 +54,9 @@ Go solutions for LeetCode 75 study plan with time and space complexity analysis.
 - [104. Maximum Depth of Binary Tree](solutions/binarytreedfs/maximum_depth_of_binary_tree.go)
 - [872. Leaf-Similar Trees](solutions/binarytreedfs/leaf_similar_trees.go)
 - [1448. Count Good Nodes in Binary Tree](solutions/binarytreedfs/count_good_nodes_in_binary_tree.go)
+- [437. Path Sum III](solutions/binarytreedfs/path_sum_iii.go)
+- [1372. Longest ZigZag Path in a Binary Tree](solutions/binarytreedfs/longest_zigzag_path.go)
+- [236. Lowest Common Ancestor of a Binary Tree](solutions/binarytreedfs/lowest_common_ancestor.go)
 
 **Binary Tree – BFS**
 
