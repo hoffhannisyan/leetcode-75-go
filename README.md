@@ -47,7 +47,10 @@ Go solutions for LeetCode 75 study plan with time and space complexity analysis.
 
 **Linked List**
 
+- [2095. Delete the Middle Node of a Linked List](solutions/linkedlist/delete_middle_node.go)
+- [328. Odd Even Linked List](solutions/linkedlist/odd_even_linked_list.go)
 - [206. Reverse Linked List](solutions/linkedlist/reverse_linked_list.go)
+- [2130. Maximum Twin Sum of a Linked List](solutions/linkedlist/maximum_twin_sum.go)
 
 **Binary Tree – DFS**
 
@@ -61,10 +64,12 @@ Go solutions for LeetCode 75 study plan with time and space complexity analysis.
 **Binary Tree – BFS**
 
 - [199. Binary Tree Right Side View](solutions/binarytreebfs/binary_tree_right_side_view.go)
+- [1161. Maximum Level Sum of a Binary Tree](solutions/binarytreebfs/maximum_level_sum.go)
 
 **Binary Search Tree**
 
 - [700. Search in a Binary Search Tree](solutions/binarysearchtree/search_in_a_binary_search_tree.go)
+- [450. Delete Node in a BST](solutions/binarysearchtree/delete_node.go)
 
 **Bit Manipulation**
 
