@@ -1,7 +1,5 @@
 package binarytreedfs
 
-import "github.com/hoffhannisyan/leetcode-75-go/solutions/structures"
-
 /*
 1372. Longest ZigZag Path in a Binary Tree
 
@@ -37,7 +35,7 @@ Constraints:
 	- 1 <= Node.val <= 100
 */
 
-func LongestZigZag(root *structures.TreeNode) int {
+func LongestZigZag(root *TreeNode) int {
 	if root == nil {
 		return 0
 	}
@@ -46,7 +44,7 @@ func LongestZigZag(root *structures.TreeNode) int {
 	return maxLen
 }
 
-func longestZigZagDFS(node *structures.TreeNode, leftLen int, rightLen int, maxLen *int) {
+func longestZigZagDFS(node *TreeNode, leftLen int, rightLen int, maxLen *int) {
 	if node == nil {
 		return
 	}

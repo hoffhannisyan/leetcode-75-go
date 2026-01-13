@@ -1,7 +1,5 @@
 package binarytreedfs
 
-import "github.com/hoffhannisyan/leetcode-75-go/solutions/structures"
-
 /*
 236. Lowest Common Ancestor of a Binary Tree
 
@@ -34,7 +32,7 @@ Constraints:
 	- p and q will exist in the tree
 */
 
-func LowestCommonAncestor(root, p, q *structures.TreeNode) *structures.TreeNode {
+func LowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 	if root == nil || root == p || root == q {
 		return root
 	}

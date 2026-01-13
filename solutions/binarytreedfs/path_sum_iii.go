@@ -1,7 +1,5 @@
 package binarytreedfs
 
-import "github.com/hoffhannisyan/leetcode-75-go/solutions/structures"
-
 /*
 437. Path Sum III
 
@@ -26,12 +24,12 @@ Constraints:
 	- -1000 <= targetSum <= 1000
 */
 
-func PathSum(root *structures.TreeNode, targetSum int) int {
+func PathSum(root *TreeNode, targetSum int) int {
 	prefixSum := map[int64]int{0: 1}
 	return pathSumDFS(root, 0, int64(targetSum), prefixSum)
 }
 
-func pathSumDFS(node *structures.TreeNode, currentSum int64, targetSum int64, prefixSum map[int64]int) int {
+func pathSumDFS(node *TreeNode, currentSum int64, targetSum int64, prefixSum map[int64]int) int {
 	if node == nil {
 		return 0
 	}
