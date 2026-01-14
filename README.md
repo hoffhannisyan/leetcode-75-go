@@ -12,11 +12,16 @@ Go solutions for LeetCode 75 study plan with time and space complexity analysis.
 - [605. Can Place Flowers](solutions/arraystring/can_place_flowers.go)
 - [345. Reverse Vowels of a String](solutions/arraystring/reverse_vowels_of_a_string.go)
 - [151. Reverse Words in a String](solutions/arraystring/reverse_words_in_a_string.go)
+- [238. Product of Array Except Self](solutions/arraystring/product_of_array_except_self.go)
+- [334. Increasing Triplet Subsequence](solutions/arraystring/increasing_triplet_subsequence.go)
+- [443. String Compression](solutions/arraystring/string_compression.go)
 
 **Two Pointers**
 
 - [283. Move Zeroes](solutions/twopointers/move_zeroes.go)
 - [392. Is Subsequence](solutions/twopointers/is_subsequence.go)
+- [11. Container With Most Water](solutions/twopointers/container_with_most_water.go)
+- [1679. Max Number of K-Sum Pairs](solutions/twopointers/max_number_of_k_sum_pairs.go)
 
 **Sliding Window**
 
